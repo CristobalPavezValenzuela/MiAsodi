@@ -1,0 +1,224 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "registro_presion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_filtro_ano",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_filtro_mes",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_peso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_filtro_mes",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_filtro_ano",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_glucemia",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_filtro_mes",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_filtro_ano",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_citas_medicas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_hora_cita",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_sintomas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_documentacion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "usuario_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_documentacion_imagen",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "usuario_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_peso",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_citas_medicas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_presion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_glucemia",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "registro_glucemia",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registrar_alimentacion_diaria",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "usuario_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_glucemia",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "registro_medicacion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha_registro",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
